@@ -14,57 +14,104 @@ A boilerplate Node.js Express server built with TypeScript, including ESLint and
 
 ### Prerequisites
 
-- [Bun](https://bun.sh/) - JavaScript runtime and toolkit
+- [Bun](https://bun.sh/), [npm](https://www.npmjs.com/), or [pnpm](https://pnpm.io/) - JavaScript runtimes and package managers
 
 ### Installation
 
 1. Clone the repository
-2. Install dependencies:
+2. Install dependencies with your preferred package manager:
    ```bash
+   # Bun
    bun install
+   # npm
+   npm install
+   # pnpm
+   pnpm install
    ```
 
 ### Development
 
 To start the development server:
+
 ```bash
+# Bun
 bun run dev
+# npm
+npm run dev
+# pnpm
+pnpm run dev
 ```
 
 ### Building for Production
 
 To build the app for production:
+
 ```bash
+# Bun
 bun run build
+# npm
+npm run build
+# pnpm
+pnpm run build
 ```
 
 ### Running in Production
 
 To start the production server:
+
 ```bash
+# Bun
 bun run start
+# npm
+npm start
+# pnpm
+pnpm start
 ```
 
 ### Linting and Formatting
 
 To check for linting errors:
+
 ```bash
+# Bun
 bun run lint
+# npm
+npm run lint
+# pnpm
+pnpm run lint
 ```
 
 To fix linting errors:
+
 ```bash
+# Bun
 bun run lint:fix
+# npm
+npm run lint:fix
+# pnpm
+pnpm run lint:fix
 ```
 
 To check code formatting:
+
 ```bash
+# Bun
 bun run prettier:check
+# npm
+npm run prettier:check
+# pnpm
+pnpm run prettier:check
 ```
 
 To fix code formatting:
+
 ```bash
+# Bun
 bun run prettier:fix
+# npm
+npm run prettier:fix
+# pnpm
+pnpm run prettier:fix
 ```
 
 ## Project Structure
